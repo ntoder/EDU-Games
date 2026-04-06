@@ -8,3 +8,7 @@ function createBalloon(number, colour, speed, position){
     balloonEl.innerText =number    
     document.body.appendChild(balloonEl)
 }
+setInterval(moveBalloon, 20)
+function moveBalloon(){
+    createBalloon
+}
